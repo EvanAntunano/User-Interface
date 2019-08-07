@@ -114,12 +114,14 @@ h1{
 	background:grey;
 	color:blue;
 }
-
+.innovationButton{
+	left:0px;
+}
 .snippet{
 display:inline-block;
 padding:50px 50px;
-vertical-align:center;
-width:30%;
+width:50%;
+right:0px;
 }
 
 #features {
@@ -136,8 +138,10 @@ width:30%;
 }
 .middle-img{
 	display:inline-block;
-	margin-left:15%;
-	padding: 10px 10px;
+	/* margin-left:15%; */
+	/* padding: 10px 10px; */
+	width:100%;
+	padding:10px 0px;
 }
 .bottom-content{
 	width:100%;
@@ -150,7 +154,7 @@ width:30%;
 	position:absolute;
 	top:0px;
 	width:33%;
-	border:1px solid black;
+	/* border:1px solid black; */
 	
 }
 .bottom-content #product {
@@ -158,30 +162,43 @@ width:30%;
 	top:0px;
 	width:100%;
 	left:400px;
-	border:1px solid black;
+	/* border:1px solid black; */
 }
 .bottom-content #vision {
 	position:absolute;
 	top:0px;
 	width:100%;
 	left:400px;
-	border:1px solid black;
+	/* border:1px solid black; */
  
+}
+.servicesText, .productText, .visionText{
+	padding:0px 5px 0px 0px;
 }
 h2{
 	margin-bottom: 0;
- 	text-align:left;
+	 text-align:left;
+	 padding:0px 5px 0px 0px;
+	 
 }
 /* p{ */
 	/* padding: 10px 30px;
 	display:inline-block;
 	/* width: 29%; */
 /* }*/ 
-	
+h3{
+	padding:10px 0px;
+	border-top: 1px solid black;
+}	
 .contact{
 	text-align: center;
 	padding:10px 30px;
 	top:30px;
+	width:10%;
+	
+}
+.contactText{
+	width:15%;
 }
 
 footer{
