@@ -134,30 +134,33 @@ width:30%;
 	padding: 10px 10px;
 }
 .bottom-content{
-	width:23%;
+	width:100%;
+	height:500px;
+	border:1px solid black;
+	margin-top:30px;
 	position:relative;
-	display:inline-block;
-	margin:auto;
-	padding:10px;
 }
-.services{
-	position:relative;
-	/* display:inline-block; */
-	width:15%;
-	height;
-	float: left;
+.bottom-content #services{
+	position:absolute;
+	top:0px;
+	width:30%;
+	border:1px solid black;
+	
 }
-#product, {
-	position:relative;
-	display:inline-block;
-	width:23%;
-	margin: 10px 5px 10px;
+.bottom-content #product {
+	position:absolute;
+	top:0px;
+	width:30%;
+	left:400px;
+	border:1px solid black;
 }
-#vision {
-	position:relative;
-	display:inline-block;
-	width:23%; 
-	margin: 10px 5px 10px; 
+.bottom-content #vision {
+	position:absolute;
+	top:0px;
+	width:30%;
+	left:500px;
+	border:1px solid black;
+ 
 }
 h2{
 	margin-bottom: 0;
@@ -170,6 +173,7 @@ h2{
 /* }*/ 
 	
 .contact{
+	text-align: center;
 	padding:10px 30px;
 }
 
