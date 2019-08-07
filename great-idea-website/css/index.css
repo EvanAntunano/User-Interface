@@ -122,11 +122,17 @@ vertical-align:center;
 width:30%;
 }
 
-#features, #about {
+#features {
 	position:relative;
 	display:inline-block;
 	width: 23%;
-	margin: 10px 5px 10px;
+	/* margin: 10px 5px 10px; */
+}
+#about{
+	position:relative;
+	display:inline-block;
+	width: 23%;
+	left:30%;
 }
 .middle-img{
 	display:inline-block;
@@ -135,36 +141,36 @@ width:30%;
 }
 .bottom-content{
 	width:100%;
-	height:500px;
-	border:1px solid black;
+	height:100px;
+	/* border:1px solid black; */
 	margin-top:30px;
 	position:relative;
 }
 .bottom-content #services{
 	position:absolute;
 	top:0px;
-	width:30%;
+	width:33%;
 	border:1px solid black;
 	
 }
 .bottom-content #product {
 	position:absolute;
 	top:0px;
-	width:30%;
+	width:100%;
 	left:400px;
 	border:1px solid black;
 }
 .bottom-content #vision {
 	position:absolute;
 	top:0px;
-	width:30%;
-	left:500px;
+	width:100%;
+	left:400px;
 	border:1px solid black;
  
 }
 h2{
 	margin-bottom: 0;
- 	padding: 10px 30px;
+ 	text-align:left;
 }
 /* p{ */
 	/* padding: 10px 30px;
@@ -175,6 +181,7 @@ h2{
 .contact{
 	text-align: center;
 	padding:10px 30px;
+	top:30px;
 }
 
 footer{
