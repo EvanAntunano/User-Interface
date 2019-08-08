@@ -114,63 +114,91 @@ h1{
 	background:grey;
 	color:blue;
 }
-
+.innovationButton{
+	left:0px;
+}
 .snippet{
 display:inline-block;
 padding:50px 50px;
-vertical-align:center;
-width:30%;
+width:50%;
+right:0px;
 }
 
-#features, #about {
+#features {
 	position:relative;
 	display:inline-block;
 	width: 23%;
-	margin: 10px 5px 10px;
+	/* margin: 10px 5px 10px; */
+}
+#about{
+	position:relative;
+	display:inline-block;
+	width: 23%;
+	left:30%;
 }
 .middle-img{
 	display:inline-block;
-	margin-left:15%;
-	padding: 10px 10px;
+	/* margin-left:15%; */
+	/* padding: 10px 10px; */
+	width:100%;
+	padding:10px 0px;
 }
 .bottom-content{
-	width:23%;
+	width:100%;
+	height:100px;
+	/* border:1px solid black; */
+	margin-top:30px;
 	position:relative;
-	display:inline-block;
-	margin:auto;
-	padding:10px;
 }
-.services{
-	position:relative;
-	/* display:inline-block; */
-	width:15%;
-	height;
-	float: left;
+.bottom-content #services{
+	position:absolute;
+	top:0px;
+	width:33%;
+	/* border:1px solid black; */
+	
 }
-#product, {
-	position:relative;
-	display:inline-block;
-	width:23%;
-	margin: 10px 5px 10px;
+.bottom-content #product {
+	position:absolute;
+	top:0px;
+	width:100%;
+	left:400px;
+	/* border:1px solid black; */
 }
-#vision {
-	position:relative;
-	display:inline-block;
-	width:23%; 
-	margin: 10px 5px 10px; 
+.bottom-content #vision {
+	position:absolute;
+	top:0px;
+	width:100%;
+	left:400px;
+	/* border:1px solid black; */
+ 
+}
+.servicesText, .productText, .visionText{
+	padding:0px 5px 0px 0px;
 }
 h2{
 	margin-bottom: 0;
- 	padding: 10px 30px;
+	 text-align:left;
+	 padding:0px 5px 0px 0px;
+	 
 }
 /* p{ */
-	/* padding:10px 30px;
+	/* padding: 10px 30px;
 	display:inline-block;
 	/* width: 29%; */
 /* }*/ 
-	
+h3{
+	padding:10px 0px;
+	border-top: 1px solid black;
+}	
 .contact{
+	text-align: center;
 	padding:10px 30px;
+	top:30px;
+	width:10%;
+	
+}
+.contactText{
+	width:15%;
 }
 
 footer{
